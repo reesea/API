@@ -1,4 +1,3 @@
-# API
 ## Retrieve User Data API Documentation
 ### Introduction
 This API documentation outlines how to retrieve user data from our system using RESTful API calls. The Retrieve User Data API allows you to get user data including their name, email, and other relevant details. This document provides a detailed description of the API's endpoints, parameters, response, and authentication process.
