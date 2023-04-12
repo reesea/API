@@ -60,7 +60,7 @@ Response:
 POST /users
 {
   "name": "Janet Smith",
-  "email": "janet.smith@example.com",
+  "email": "janet.smith@smith.com",
   "password": "password123"
 }
 
@@ -68,7 +68,7 @@ Response:
 {
   "id": 987654321,
   "name": "Janet Smith",
-  "email": "janet.smith@example.com",
+  "email": "janet.smith@smith.com",
   "created_at": "2022-01-25T10:00:00.000Z"
 }
 ```
