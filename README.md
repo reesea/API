@@ -43,11 +43,11 @@ The response from the Retrieve User Data API returns a JSON object with the foll
 #### GET /users
 
 ```bash
-GET /users?id=123456789
+GET /users?id=321654
 
 Response:
 {
-  "id": 987654321,
+  "id": 321654,
   "name": "Jonathon Smith",
   "email": "jonathon.smith@smith.com",
   "created_at": "2022-01-24T12:34:56.000Z",
@@ -59,16 +59,16 @@ Response:
 ```perl
 POST /users
 {
-  "name": "Jane Doe",
-  "email": "jane.doe@example.com",
+  "name": "Janet Smith",
+  "email": "janet.smith@example.com",
   "password": "password123"
 }
 
 Response:
 {
   "id": 987654321,
-  "name": "Jane Doe",
-  "email": "jane.doe@example.com",
+  "name": "Janet Smith",
+  "email": "janet.smith@example.com",
   "created_at": "2022-01-25T10:00:00.000Z"
 }
 ```
